@@ -42,7 +42,7 @@ function Hero() {
                     </div>
 
                     <h2>{profile.name}</h2>
-                    <p className="profileTitle">{profile.title}</p>`
+                    <p className="profileTitle">{profile.title}</p>
                 </aside>
 
                 <div className="heroTextCard contactHeroCard">
