@@ -38,12 +38,11 @@ function Hero() {
             <div className="heroTop">
                 <aside className="profileCard">
                     <div className="avatarImageWrapper">
-                        <img src={profileImage} alt={profile.name} className="profileImage"/>
+                        <img src={profileImage as string} alt={profile.name} className="profileImage"/>
                     </div>
 
                     <h2>{profile.name}</h2>
                     <p className="profileTitle">{profile.title}</p>
-                    <p className="profileLocation">{profile.location}</p>
                 </aside>
 
                 <div className="heroTextCard contactHeroCard">
