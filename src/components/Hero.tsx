@@ -38,7 +38,7 @@ function Hero() {
             <div className="heroTop">
                 <aside className="profileCard">
                     <div className="avatarImageWrapper">
-                        <img src={profileImage as string} alt={profile.name} className="profileImage"/>
+                        <img src={profileImage} alt={profile.name} className="profileImage"/>
                     </div>
 
                     <h2>{profile.name}</h2>
